@@ -1,0 +1,25 @@
+// variables
+$warning: #ffc107;
+$parrafos: white;
+$dark: black;
+
+ @mixin title{
+	color: $warning;
+    text-align: center;
+}
+.title{
+	@include title;
+	}
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    blue,
+  "secondary":  green,
+  "success":    purple,
+  "info":       red,
+  "warning":    white,
+  "danger":     yellow,
+  "light":      grey,
+  "dark":       black
+);
+// scss-docs-end theme-colors-map

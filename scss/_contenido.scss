@@ -1,0 +1,58 @@
+p{
+    color: $parrafos;
+}
+//tour
+.tour_padd{
+    padding: 0.5rem;
+}
+
+// Image Mixins
+// - Responsive image
+// - Retina image
+
+// Responsive image
+//
+// Keep images from scaling beyond the width of their parents.
+
+@mixin img-fluid {
+    // Part 1: Set a maximum relative to the parent
+    max-width: 100%;
+    // Part 2: Override the height to auto, otherwise images will be stretched
+    // when setting a width and height attribute on the img element.
+    height: auto;
+  }
+
+/* Grid discografia*/
+.contenedor3{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 5px;
+    grid-column-gap: 7px;
+    margin-top: 20px;
+}
+
+.contenedor4{
+    @extend .contenedor3;
+    grid-template-columns: repeat(4, auto);
+    background-color: rgba(102, 5, 5, 0.501);
+}
+
+//galeria
+.contenedor1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 5px;
+    grid-column-gap: 7px;
+    margin-top: 20px;
+}
+//contacto
+.px-26{
+    padding-left: 26rem;
+    padding-right: 26rem;
+    padding-bottom: 2rem;
+}
+

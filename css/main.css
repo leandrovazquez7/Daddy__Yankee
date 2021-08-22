@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+.title {
+  color: #ffc107;
+  text-align: center; }
+
+.navbar_style ul li a:hover {
+  color: white;
+  border-bottom: 1px solid black; }
+
+p {
+  color: white; }
+
+.tour_padd {
+  padding: 0.5rem; }
+
+/* Grid discografia*/
+.contenedor3, .contenedor4 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-row-gap: 5px;
+  grid-column-gap: 7px;
+  margin-top: 20px; }
+
+.contenedor4 {
+  grid-template-columns: repeat(4, auto);
+  background-color: rgba(102, 5, 5, 0.501); }
+
+.contenedor1 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-row-gap: 5px;
+  grid-column-gap: 7px;
+  margin-top: 20px; }
+
+.px-26 {
+  padding-left: 26rem;
+  padding-right: 26rem;
+  padding-bottom: 2rem; }
+
+/* tabla tour */
+.logoTour {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 226px;
+  margin-right: 100px; }
+
+.border1 {
+  color: #3d073d;
+  border-top-width: 1rem;
+  border-top-style: solid; }
+
+div table {
+  color: #ffc107;
+  font-size: 1.8rem;
+  margin-left: 300px; }
+
+div table tr td {
+  color: white; }
+
+div table tr td a {
+  color: #ffc107;
+  font-size: 2rem; }
+
+/* color de fondo de tour gradient */
+.fondocolor_tour {
+  display: grid;
+  background: linear-gradient(to top, black, #3d073d); }
+
+footer div {
+  background: linear-gradient(to top, blue, black, #ffc107);
+  text-align: center;
+  font-size: 1rem;
+  word-spacing: 10px;
+  text-decoration: none;
+  background-color: #ffc107; }

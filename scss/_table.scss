@@ -1,0 +1,32 @@
+/* tabla tour */
+.logoTour{
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 226px;
+    margin-right: 100px;
+}
+
+.border1{
+    color: rgb(61, 7, 61);
+    border-top-width: 1rem;
+    border-top-style: solid;
+}
+
+div table{
+    color: $warning;
+    font-size: 1.8rem;
+    margin-left: 300px;
+    tr td{
+        color: $parrafos;
+        a{
+            color: $warning;
+            font-size: 2rem;
+        }
+    }
+}
+
+/* color de fondo de tour gradient */
+.fondocolor_tour{
+    display: grid;
+    background: linear-gradient(to top, black, rgb(61, 7, 61));
+}

@@ -1,0 +1,12 @@
+// FOOTER, es el mismo para todas las paginas y tiene gradient
+
+footer{
+    div{
+        background: linear-gradient(to top, blue, black, #ffc107);
+        text-align: center;
+        font-size: 1rem;
+        word-spacing: 10px;
+        text-decoration: none;
+        background-color: $warning;
+    }
+}
